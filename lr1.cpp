@@ -164,9 +164,6 @@ string execute_query(Database& db, const string& query_str) {
     return "Unknown command";
 }
 
-// ============================================================================
-// 4. РАБОТА С ФАЙЛАМИ И MAIN
-// ============================================================================
 void file_io(Database& db, string filename, bool save) {
     if (!save) {
         ifstream f(filename); string line;
