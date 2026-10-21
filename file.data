@@ -1,3 +1,4 @@
-M myarray orange
-F mylist grape orange banana
-T mytree melon
+M myarray orange apple
+Q myqueue task1
+F mylist apple apple bannan kiwi
+T mytree 100 70 80 90
